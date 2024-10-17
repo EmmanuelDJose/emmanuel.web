@@ -1,0 +1,237 @@
+/*
+  You can add custom CSS and extend Boostrap styles in this file. 
+  Remember, Bootstrap is just CSS at the end of the day!
+*/
+
+/* General */
+
+.divider-header {
+  font-size: calc(22px + 1.5vw);
+  text-align: center;
+  margin: 0;
+}
+
+.femc-section-row-1 {
+  background-color: #e7d7c1;
+  color: #735731;
+}
+
+.femc-section-row-2 {
+  background-color: #a78a7f;
+  color: #e7d7c1;
+  margin: 0;
+}
+
+/* Navigation bar */
+
+.navbar {
+  background-color: #8c1c13;
+}
+
+#navbarhomeicon {
+  font-size: 36px;
+  color: #e7d7c1;
+}
+
+.navbar-nav.ms-auto li a {
+  color: #e7d7c1;
+}
+
+.femc-toggler {
+  color: #b39670;
+  border-color: #e7d7c1;
+}
+
+.femc-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231, 215, 193, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Hero section */
+
+#hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg");
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.profile-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#headshot {
+  width: 60%;
+  height: auto;
+  max-width: 250px;
+  min-width: 150px;
+  margin-bottom: 10px;
+
+  object-fit: cover;
+
+  border-style: solid;
+  border-color: #bf4342;
+  border-width: 10px;
+  border-radius: 100%;
+}
+
+.femc-font-h1 {
+  color: #483733;
+  font-size: calc(32px + 1.5vw);
+  text-align: center;
+}
+
+.femc-font-p {
+  color: #e7d7c1;
+  font-size: calc(14px + 1.5vw);
+  text-align: center;
+}
+
+/* Mission section */
+
+#mission-target {
+  position: relative !important;
+  translate: translateY(-500px) !important;
+}
+
+.femc-heading-mission {
+  margin-bottom: 20px;
+}
+
+#femc-img-mission {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+
+  margin-bottom: 10px;
+  padding: 0px 30px 10px;
+}
+
+.femc-p-mission {
+  text-align: justify;
+
+  padding: 0px 45px;
+}
+
+@media (min-width: 576px) {
+  .femc-img-sm {
+    text-align: center !important;
+
+    padding: 0px 45px 15px !important;
+  }
+
+  .femc-p-mission-sm {
+    text-align: justify !important;
+
+    padding: 0px 45px 30px !important;
+  }
+
+  .femc-heading-mission-sm {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 820px) {
+  .femc-img-md {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .femc-img-lg {
+    text-align: right !important;
+
+    padding: 0px 0px 0px 0px !important;
+  }
+
+  .femc-p-mission-lg {
+    text-align: left !important;
+
+    padding: 0px 20px 0px 20px !important;
+  }
+
+  .femc-heading-mission-lg {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .femc-img-xl {
+    text-align: right !important;
+
+    padding: 0px 20px 0px 0px !important;
+  }
+
+  .femc-p-mission-xl {
+    padding: 0px 100px 0px 0px !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .femc-p-mission-xxl {
+    padding: 0px 200px 0px 0px !important;
+  }
+}
+
+/* Skills section */
+
+.femc-icon-skills {
+  font-size: calc(75px + 1.5vw);
+}
+
+.femc-p-skills {
+  margin: 0;
+  padding: 25px 40px;
+}
+
+#femc-problematic-1-skills {
+  margin: 0;
+  padding: 10px 40px 0px;
+}
+
+#femc-problematic-2-skills {
+  font-size: calc(60px + 1.5vw);
+}
+
+/* Contact section */
+
+.femc-icon-contact {
+  color: #735731;
+  font-size: calc(75px + 1.5vw);
+
+  transition: 0.4s;
+}
+
+.femc-icon-contact:hover {
+  color: #bf4342;
+}
+
+/* Footer section */
+
+#footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px 0px;
+
+  background-color: #8c1c13;
+}
+
+#footer-section h6 {
+  font-size: 16px;
+  text-align: center;
+}
