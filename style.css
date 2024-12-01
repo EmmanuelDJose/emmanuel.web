@@ -1,8 +1,3 @@
-/*
-  You can add custom CSS and extend Boostrap styles in this file. 
-  Remember, Bootstrap is just CSS at the end of the day!
-*/
-
 /* General */
 
 html {
@@ -15,12 +10,12 @@ html {
   margin: 0;
 }
 
-.femc-section-row-1 {
+.ej-section-row-1 {
   background-color: #e7d7c1;
   color: #735731;
 }
 
-.femc-section-row-2 {
+.ej-section-row-2 {
   background-color: #a78a7f;
   color: #e7d7c1;
   margin: 0;
@@ -231,6 +226,7 @@ html {
 }
 
 #footer-section h6 {
+  color: #e7d7c1;
   font-size: 16px;
   text-align: center;
 }
