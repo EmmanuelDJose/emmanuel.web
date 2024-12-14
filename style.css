@@ -2,6 +2,14 @@
 
 html {
   scroll-padding-top: 72px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .divider-header {
@@ -68,23 +76,35 @@ html {
 
 .profile-image {
   display: flex;
-  width: 100%;
   justify-content: center;
+
+  max-width: 350px;
+  max-height: 350px;
+
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 #headshot {
-  width: 60%;
+  display: flex;
+  width: 33vw;
   height: auto;
-  max-width: 250px;
-  min-width: 150px;
-  margin-bottom: 10px;
+  
+  min-width: 200px;
+  min-height: 200px;
 
-  object-fit: cover;
+  /* Headshot responsiveness */
+  min-width: 200px;
+  min-height: 200px;
 
+  max-width: 350px;
+  max-height: 350px;
+
+  /* These styles must stay in this selector */
   border-style: solid;
   border-color: #bf4342;
   border-width: 10px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .femc-font-h1 {
